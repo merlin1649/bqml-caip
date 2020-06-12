@@ -35,7 +35,7 @@ gcloud beta notebooks instances create $INSTANCE_NAME \
   --vm-image-family=$VM_IMAGE_FAMILY \
   --machine-type=$MACHINE_TYPE --location=$LOCATION
 ```
-Detailed setup instructions can be found [here](https://cloud.google.com/ai-platform/notebooks/docs/create-new).
+(Optional) Detailed setup instructions can be found [here](https://cloud.google.com/ai-platform/notebooks/docs/create-new).
 
 Go to the Notebook [console](https://console.cloud.google.com/ai-platform/notebooks/instances?_ga=2.230420892.1299696707.1591948252-1008316514.1591948252).  When the Notebook server is ready, click the `OPEN UPYTERLAB` link.
 
