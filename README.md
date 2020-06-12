@@ -4,9 +4,19 @@ This set of notebooks illustrates the concepts of training a model in BQML, extr
 
 In order to run these notebooks, the following setup will need to be performed.  Ensure a GCP project is already created.
 
-Authenticate to GCP and set project:
-`gcloud auth login`
+### Configure environment
+
+From the console, open an instance of Cloud Shell.
+
+Set project:
 `export PROJECT_ID=[]`
+`gcloud config set project ${PROJECT_ID}`
+
+Enable services:
+`gcloud services enable \`
+`bigquery.googleapis.com \`
+`ml.googleapis.com \`
+`notebooks.googleapis.com` 
 
 ### Create an AI Platform Notebook instance
 
