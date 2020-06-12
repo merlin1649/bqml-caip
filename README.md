@@ -9,15 +9,17 @@ In order to run these notebooks, the following setup will need to be performed. 
 From the console, open an instance of Cloud Shell.
 
 Set project:
+
 `export PROJECT_ID=[]`
 `gcloud config set project ${PROJECT_ID}`
 
 Enable services:
-`gcloud services enable \`
-`bigquery.googleapis.com \`
-`ml.googleapis.com \`
-`notebooks.googleapis.com` 
-
+```
+gcloud services enable \
+bigquery.googleapis.com \
+ml.googleapis.com \
+notebooks.googleapis.com
+```
 ### Create an AI Platform Notebook instance
 
 
