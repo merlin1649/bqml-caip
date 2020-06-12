@@ -43,7 +43,7 @@ Once the Notebook is opened, click on `Terminal` and type the following command:
 ```
 pip install kfp
 ```
-Finally, clone this repo into the Notebook instace.
+Finally, clone this repo into the Notebook instance.
 
 ### Create an AI Platform Pipelines instance
 
