@@ -9,10 +9,10 @@ In order to run these notebooks, the following setup will need to be performed. 
 From the console, open an instance of Cloud Shell.
 
 Set project:
-
-`export PROJECT_ID=[]`
-`gcloud config set project ${PROJECT_ID}`
-
+```
+export PROJECT_ID=[]
+gcloud config set project ${PROJECT_ID}
+```
 Enable services:
 ```
 gcloud services enable \
