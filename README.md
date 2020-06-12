@@ -8,4 +8,15 @@ Authenticate to GCP and set project:
 `gcloud auth login`
 `export PROJECT_ID=[]`
 
-[Setting up KF Pipeline](https://cloud.google.com/ai-platform/pipelines/docs/getting-started#set_up_your_instance)
+### Create an AI Platform Notebook instance
+
+
+
+### Create an AI Platform Pipelines instance
+
+Follow the instruations for [Setting up KF Pipelines](https://cloud.google.com/ai-platform/pipelines/docs/getting-started#set_up_your_instance) to create an instance of AI Platform Kubeflow Pipelines.
+
+After the KF Pipelines instance is created, from the console, click on `SETTINGS` and locate the `"host=..."` uunder "Connect to this Kubeflow Pipelines instance..."  Use this value for KFPHOST in the Pipelines notebook.
+
+
+
